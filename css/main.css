@@ -1,0 +1,319 @@
+body {
+	font-family: "Metropolis Regular";
+	background-color: transparent;
+	position: relative;
+}
+
+.thumbnail {
+	padding: 0px;
+	border: 0px solid;
+}
+
+
+@font-face {
+	font-family: "Metropolis";
+	src: url("../fonts/metropolis-1920/metropolis-1920.otf");
+}
+
+
+@font-face {
+	font-family: "Metropolis Bold";
+	src: url("../fonts/metropolis-1920/Metropolis-Medium.otf");
+}
+
+@font-face {
+	font-family: "Metropolis Regular";
+	src: url("../fonts/metropolis-1920/Metropolis-Regular.otf");
+}
+
+
+.titulos {
+	font-family: "Metropolis Bold";
+	font-size: 2em;
+	padding: 2%;
+}
+
+.subtitulos {
+	font-family: "Metropolis Bold";
+	font-size: 1.5em;
+}
+
+.metropolis {
+	font-family: "Metropolis";
+}
+
+/* Colores */
+.naranja {
+	color: #ff4000;
+}
+
+.azul {
+	color: blue;
+}
+
+.blanco {
+	color:#FFF;
+}
+
+.big-letter {
+	font-size: 1.3em;
+}
+
+.ocultando {
+	display: none;
+}
+
+
+
+/*Navbar*/
+
+.navbar-default .navbar-toggle:hover {
+	background-color: #ff4000;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFF;
+	font-size: 2.5em;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #ff4000;
+}
+
+
+.navbar-default {
+	padding-top: 1%;
+	padding-right: 1%;
+	background-color: #ff4000;
+	border-color: #e7e7e7;
+	color: #FFF;
+	height: 75px;
+}
+
+
+.navbar-default .navbar-toggle {
+	border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+
+.row {
+     margin-right: 0px;
+    /* margin-left: -15px; */
+}
+
+/* Home */
+.fondo-total {
+	background-image: url("../assets/img/chess-opaco.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+
+/*Acerca de mi*/
+
+
+
+.cv {
+	margin-top: 10%;
+}
+
+/* Seccion Home*/
+
+
+
+.letter-s{
+	letter-spacing: .2rem;
+}
+
+.home p {
+	font-size: 1em;
+}
+
+.icono {
+	margin-left: 20%;
+	padding-bottom: 10%;
+}
+
+
+
+/* Sección Proyectos*/
+
+.projects h2 {
+	padding-top: 10%;
+}
+.fondo-gris {
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.gris {
+	color: rgba(0, 0, 0, .8);
+}
+
+
+
+.skills {
+	background-color: #ff4000;
+	margin-bottom: 2%;
+}
+
+.habilidades {
+	padding-bottom: 5%;
+}
+
+.blandas {
+	padding-top: 5%;
+}
+
+
+hr.separador_post:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #FF4000;
+    border-width: 0 0 1px 0;
+}
+
+
+.btn.btn-default {
+	background: transparent;
+	border-radius: 20%;
+	border: 1px solid #FFF;
+}
+
+.bar {
+  width: 10%;
+  height: 100%;
+  border-radius: 16px;
+  animation-name: increase;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes increase {
+  from {
+    width: 0%
+  }
+  to {
+    width: 70%
+  }
+}
+
+
+
+footer.page-footer {
+	margin-top: 0px;
+	padding-top: 20px;
+	background-color: rgba(0, 0, 0, .8);
+
+}
+
+
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  background-color: #000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+.contenedor {
+  position: relative;
+  width: 100%;
+}
+.mini-icono {
+	height: 50px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .8);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.contenedor:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
