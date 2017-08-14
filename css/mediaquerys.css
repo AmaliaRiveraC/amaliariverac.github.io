@@ -45,7 +45,7 @@
 	}
 
 	#particles-js {
-		height: 23%;
+		height: 22%;
 	}
 }
 
@@ -90,13 +90,13 @@
 	}
 
 	.acerca-de img{
-		height: 60vh;
+		height: 40vh;
 		padding-top: 15%;
 		padding-left: 5%;
 	}
 
 	.acerca-de-mi  {
-		height: 80vh;
+		height: 50vh;
 		padding-top: 10%;
 		font-size: 1.5em;
 		text-align: justify;
@@ -104,9 +104,6 @@
 
 	}
 
-	#projects h2 {
-		padding-top: 20%;
-	}
 
 	#projects {
 		width: 100%;
@@ -140,6 +137,8 @@
 	#projects {
 		width: 100%;
 	}
+	
+	
 	#particles-js {
 		height: 16%;
 	}
